@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="nevbar">
+      <h1>Hello <span id="Greet"></span></h1>
+    </nav>
+    <section id="hero">
+      <div id="box-container">
+        <div class="box" id="red" onclick="onclick0()">Red</div>
+        <div class="box" id="blue" onclick="onclick1()">Blue</div>
+        <div class="box" id="green" onclick="onclick2()">Green</div>
+        <div class="box" id="yellow" onclick="onclick3()">Yellow</div>
+      </div>
+
+      <div id="buttons">
+        <input id="text" type="text" placeholder="Enter your Name." />
+        <input id="greet" type="button" onclick="get_text()" value="Greet" />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
